@@ -1,0 +1,56 @@
+# Site settings
+title: "WPGLP 仓库管理系统"
+description: "WPLA13分拣仓调度和托盘回流管理标准作业程序"
+baseurl: "/WPGLP.wiki"
+url: "https://darrien-wang.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Navigation
+navigation:
+  - title: "首页"
+    url: "/"
+  - title: "WPLA13分拣仓调度SOP"
+    url: "/WPLA13分拣仓调度-任务列表SOP/"
+  - title: "托盘回流管理SOP"
+    url: "/WPLA13托盘回流管理SOP/"
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "page"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+author: "Darrien Wang"
+social:
+  name: "WPGLP"
+  links:
+    - "https://github.com/darrien-wang"
+
+# Theme customization
+minima:
+  social_links:
+    github: darrien-wang
