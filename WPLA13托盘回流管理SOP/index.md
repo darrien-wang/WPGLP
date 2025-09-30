@@ -1,10 +1,14 @@
 ---
 layout: default
-title: "WPLA13托盘回流管理SOP"
+title: "托盘回流管理SOP (调度子任务)"
 permalink: /WPLA13托盘回流管理SOP/
 ---
 
-[← 返回首页](/WPGLP/) | [分拣仓调度SOP](/WPGLP/WPLA13分拣仓调度-任务列表SOP/)
+[← 返回首页](/WPGLP/) | [🔼 上级: 分拣仓调度SOP](/WPGLP/WPLA13分拣仓调度-任务列表SOP/)
+
+<div style="background: #fff3cd; padding: 10px; margin: 10px 0; border-left: 4px solid #ffc107; border-radius: 3px;">
+ℹ️ <strong>说明</strong>: 本文档是"WPLA13分拣仓调度任务列表SOP"的子任务文档，专门说明托盘回流管理的操作流程。
+</div>
 
 ---
 
