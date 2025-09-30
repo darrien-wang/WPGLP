@@ -31,9 +31,26 @@ permalink: /WPLA13托盘回流管理SOP/
 ## 3. 操作流程
 
 ### 3.1 操作流程图
-```
-收到托盘 → 记录到表格 → 询问仓长需求 → 选择提货仓去库存 → 生成BOL → 发送给仓长 → 仓长确认 → 联系司机
-```
+
+<div style="background: #f6f8fa; padding: 20px; margin: 20px 0; border-radius: 6px; border: 1px solid #d0d7de; overflow-x: auto;">
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; min-width: max-content;">
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">收到托盘</span>
+<span style="font-size: 20px; color: #0969da;">→</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">记录到表格</span>
+<span style="font-size: 20px; color: #0969da;">→</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">询问仓长需求</span>
+<span style="font-size: 20px; color: #0969da;">→</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">选择提货仓去库存</span>
+<span style="font-size: 20px; color: #0969da;">→</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">生成BOL</span>
+<span style="font-size: 20px; color: #0969da;">→</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">发送给仓长</span>
+<span style="font-size: 20px; color: #0969da;">→</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">仓长确认</span>
+<span style="font-size: 20px; color: #0969da;">→</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">联系司机</span>
+</div>
+</div>
 
 **调度员职责范围**: 执行到联系司机为止，后续运输和签收由司机和仓库人员负责。
 
