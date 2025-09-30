@@ -4,6 +4,13 @@ title: "WPLA13分拣仓调度任务列表SOP"
 permalink: /WPLA13分拣仓调度-任务列表SOP/
 ---
 
+<div style="background: #f8f9fa; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+<strong>导航:</strong> 
+<a href="/WPGLP/">首页</a> | 
+分拣仓调度SOP | 
+<a href="/WPGLP/WPLA13托盘回流管理SOP/">托盘回流管理SOP</a>
+</div>
+
 ## 1. 概述
 
 **仓库代码**: WPLA13  

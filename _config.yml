@@ -18,7 +18,5 @@ plugins:
 # SEO
 author: "Darrien Wang"
 
-# Theme customization
-minima:
-  social_links:
-    github: darrien-wang
+# Disable automatic navigation
+navigation: false
