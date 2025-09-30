@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: "WPGLP 仓库管理系统"
 permalink: /
 ---
