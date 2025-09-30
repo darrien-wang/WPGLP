@@ -2,9 +2,14 @@
 layout: default
 title: "WPGLP 仓库管理系统"
 permalink: /
+last_updated: 2025-09-30
 ---
 
 # WPGLP 仓库管理系统
+
+<div style="background: #f0f8ff; padding: 10px; margin-bottom: 20px; border-left: 4px solid #0366d6; border-radius: 3px;">
+📅 <strong>最后更新日期</strong>: {{ page.last_updated }}
+</div>
 
 欢迎来到WPGLP仓库管理系统文档中心！
 
@@ -41,3 +46,10 @@ permalink: /
 - **审核**: Tammy
 - **版本**: V1.0
 - **生效日期**: 2025-09-28
+- **最后更新**: {{ page.last_updated }}
+
+---
+
+<div style="text-align: center; color: #6a737d; font-size: 14px; margin-top: 30px;">
+<p>© 2025 WPGLP 仓库管理系统 | 最后更新: {{ page.last_updated }}</p>
+</div>
