@@ -1,12 +1,8 @@
 ---
-layout: default
+layout: page
 title: "WPLA13托盘回流管理SOP"
-nav_order: 3
-description: "WPLA13托盘回流管理标准作业程序"
 permalink: /WPLA13托盘回流管理SOP/
 ---
-
-# WPLA13托盘回流管理标准作业程序(SOP)
 
 ## 1. 概述
 

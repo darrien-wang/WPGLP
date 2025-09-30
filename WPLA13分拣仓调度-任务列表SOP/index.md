@@ -1,12 +1,8 @@
 ---
-layout: default
+layout: page
 title: "WPLA13分拣仓调度任务列表SOP"
-nav_order: 2
-description: "WPLA13分拣仓调度标准作业程序"
 permalink: /WPLA13分拣仓调度-任务列表SOP/
 ---
-
-# WPLA13分拣仓调度任务列表SOP
 
 ## 1. 概述
 
