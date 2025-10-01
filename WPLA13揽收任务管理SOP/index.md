@@ -39,168 +39,48 @@ permalink: /WPLA13揽收任务管理SOP/
 
 ---
 
-## 4. 第一种：让司机去提货仓拉货回来
+## 4. 第一种：让司机去提货仓拉货回来（外部揽货）
 
-### 4.1 整个流程是什么样的？
+**简单说**: 你安排司机开车去别的仓库，把货拉回WPLA13仓库
+
+**详细操作流程请参考**: [WPLA13揽货操作SOP](../WPLA13揽货操作SOP/)
+
+### 4.1 核心流程概览
 
 <div style="background: #f6f8fa; padding: 20px; margin: 20px 0; border-radius: 6px; border: 1px solid #d0d7de; overflow-x: auto;">
 <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; min-width: max-content;">
 <span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">看微信群消息</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">知道去哪拉货</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">制作提货清单</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">选合适的车</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">选车通知司机</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">通知司机</span>
-<span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">电脑里录任务</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">录入系统</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
 <span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">生成揽收码</span>
-<span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">发给仓库</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
 <span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">跟进进度</span>
 </div>
 </div>
 
-**什么时候做**: 每天早上开始  
-**谁负责**: 你（调度员）
+### 4.2 关键操作要点
 
-### 4.2 具体怎么做？
+#### 📋 制作提货清单
+- 根据星期几确定固定地点
+- 查看客户群临时通知
+- 按车型分组（53尺、30尺、26尺）
 
-#### 第1步：看微信群消息（每天早上第一件事）
+#### 🚚 选车和通知司机
+- 使用[揽货操作SOP](../WPLA13揽货操作SOP/)中的详细模板
+- 原则：宁可车大，不要太小
+- 💡 没车时可安排跑两趟
 
-**你要做什么**:
-1. 打开各个客户的微信群
-2. 看看今天需要去哪些仓库拉货
-3. 记下每个仓库大概有多少货
-4. 判断货多不多，要不要大车
-
-#### 第2步：知道去哪些仓库拉货
-
-提货仓库分3类，工作日不一样：
-
-**第1类仓库（周一到周五去拉货）**:
-- DWLAX
-- USLAX17  
-- USLAX08
-- ⚠️ **特别注意**：周一和周二的DWLAX货特别多，一般要用53尺的大货车
-
-**第2类仓库（周日到周五去拉货）**:
-- COCA、FNT、ONT1
-- WPLA、WPLA3、WPLA4
-- WPLA11、WPLA13、WPLA15
-- WPLA16、WPLA17
-
-**第3类仓库（每天看微信群通知）**:
-- YLLA、LAWLE1、LAWLW2、LAKST
-- 这几个不固定，要每天看微信群消息
-
-#### 第3步：选合适的车和通知司机
-
-1. 打开**提货仓车辆配置表**（就是那个Google表格）
-2. 看看这个仓库一般用多大的车
-3. 根据今天的货量，判断要不要更大的车
-4. 给司机打电话或发消息，**建议使用以下信息模板**（可复制粘贴）：
-
-<details>
-<summary><strong>📱 点击展开：司机通知信息模板（可复制粘贴）</strong></summary>
-
-<div style="background: #f8f9fa; border: 2px solid #0969da; border-radius: 8px; padding: 20px; margin: 15px 0;">
-
-**标准版（适用于大部分情况）:**
-
-```
-【揽收任务通知】
-司机师傅好，今天有揽收任务：
-
-📍 揽收地点：[提货仓名称，如：DWLAX]
-📍 送货地点：WPLA13
-⏰ 揽收时间：[具体时间，如：上午10:00]
-🚚 车辆要求：[车型，如：53尺货车 / 26尺货车]
-📦 预计货量：[大概件数或托盘数]
-
-请确认收到并按时到达，谢谢！
-有问题随时联系。
-```
-
-**详细版（货量大或有特殊要求时使用）:**
-
-```
-【揽收任务通知】
-司机师傅好，今天有重要揽收任务：
-
-📍 揽收地点：[提货仓名称]
-   地址：[具体地址，如有需要]
-   联系人：[提货仓联系人]
-   电话：[联系电话]
-
-📍 送货地点：WPLA13
-   地址：[WPLA13地址]
-
-⏰ 时间安排：
-   - 到达时间：[具体时间]
-   - 预计装货时长：约[X]小时
-   
-🚚 车辆要求：[车型]
-📦 货物信息：
-   - 预计货量：[件数/托盘数]
-   - 货物类型：[如：包裹/托盘]
-   - 特殊注意：[如：有易碎品 / 无特殊]
-
-⚠️ 重要提醒：
-[如：周一货量大，请预留足够时间]
-
-请确认收到，有问题随时联系！
-```
-
-**紧急版（临时加急任务）:**
-
-```
-【紧急揽收】⚡
-师傅您好，有紧急揽收任务！
-
-📍 [提货仓] → WPLA13
-⏰ 请尽快出发，最晚[X点]前到达
-🚚 [车型]
-📦 [货量]
-
-紧急任务，麻烦尽快确认！谢谢配合！
-```
-
-</div>
-
-</details>
-
-**怎么选车？记住这几点**:
-- 先看表格里写的标准车型
-- 再看微信群里说的货量
-- 想想以前的经验（比如周一周二DWLAX要大车）
-- ⚠️ **原则：宁可车大点，不要太小装不下**
-- 货特别多的时候用53尺大货车
-- 💡 **实在没车安排怎么办？** 可以安排司机跑两趟，分两次拉
-
-
-#### 第4步：在电脑里录入任务
-
+#### 💻 系统录入
 1. 打开DMS系统：https://dms.wpglb.com/pickup/task/list
-2. 登录系统（使用你的账号密码）
-3. 找到"揽收任务管理"
-4. 点"新增揽收任务"
-5. 根据实际情况，选对应的揽收服务，把所有要去的网点都选上
-6. 填写这些信息：
-   - 揽收点（比如DWLAX）
-   - 收货点（比如WPLA13）
-   - 日期
-   - 揽收运营商
-7. 点提交后，电脑会自动生成一个**揽收码**
-   - 💡 注意：电脑界面上显示的是"司机BOL"，但实际上是揽收码（系统以后会改名字）
-
-#### 第5步：把揽收码发给仓库员工
-
-1. 把刚才电脑生成的**揽收码**（就是那个"司机BOL"）发给仓库员工
-2. 等司机把货送到仓库时，仓库员工用这个码扫一下
-3. 扫完码后，货物信息就自动记录到电脑系统里了
+2. 新增揽收任务
+3. 填写揽收点、收货点、日期、运营商
+4. 生成揽收码（系统显示为"司机BOL"）
+5. 发给仓库员工
 
 ---
 
