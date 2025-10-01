@@ -26,236 +26,222 @@ permalink: /WPLA13揽收任务管理SOP/
 - DMS系统账号: WPLA13
 - 密码: Abcd123456
 - DMS揽收任务系统: https://dms.wpglb.com/pickup/task/list
-- DMS主线管理系统: https://dms.wpglb.com/mainline/mainlineManage/listt
+- **干线任务管理系统**: https://dms.wpglb.com/mainline/mainlineManage/listt
 
 ### 2.2 相关表格
 - **提货仓车辆配置表**: https://docs.google.com/spreadsheets/d/1IRZqAdMEs52wEJyEF3qkjWM_xJvBJEOE/edit?rtpof=true
 
-## 3. 揽收任务类型
+## 3. 揽收任务分为两种
 
-揽收任务分为两种类型：
+### 3.1 第一种：让司机去提货仓拉货回来
+**简单说**: 你安排司机开车去别的仓库，把货拉回WPLA13仓库
 
-### 3.1 类型一：外部揽收（司机去提货仓揽货）
-**任务描述**: 调度员安排司机去各个提货仓揽收货物，运回WPLA13分拣仓
-
-### 3.2 类型二：入库揽收（仓库接收司机送来的货物）
-**任务描述**: 司机将货物送到WPLA13仓库，仓库人员进行揽收入库操作
+### 3.2 第二种：司机把货送到我们仓库
+**简单说**: 司机把货送到WPLA13仓库门口，仓库员工接收这些货
 
 ---
 
-## 4. 类型一：外部揽收任务流程
+## 4. 第一种：让司机去提货仓拉货回来
 
-### 4.1 操作流程图
+### 4.1 整个流程是什么样的？
 
 <div style="background: #f6f8fa; padding: 20px; margin: 20px 0; border-radius: 6px; border: 1px solid #d0d7de; overflow-x: auto;">
 <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; min-width: max-content;">
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">查看客户群</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">看微信群消息</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">确定提货仓</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">知道去哪拉货</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">安排车辆</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">选合适的车</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
 <span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">通知司机</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">DMS新增任务</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">电脑里录任务</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">生成BOL</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">生成揽收码</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">发送司机</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">发给仓库</span>
 <span style="font-size: 20px; color: #0969da;">→</span>
-<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">跟进执行</span>
+<span style="background: #0969da; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">跟进进度</span>
 </div>
 </div>
 
-**作业时间**: 每天早上开始  
-**责任人**: 调度员
+**什么时候做**: 每天早上开始  
+**谁负责**: 你（调度员）
 
-### 4.2 详细操作步骤
+### 4.2 具体怎么做？
 
-#### 步骤1: 查看客户微信群通知
-**操作说明**:
-- 每天早上第一件事：查看各个客户微信群
-- 确认当日需要去哪些提货仓揽收
-- 记录每个提货仓的货物数量信息
-- 特别关注货量提示，判断是否需要大型车辆
+#### 第1步：看微信群消息（每天早上第一件事）
 
-#### 步骤2: 确定提货仓和车辆配置
+**你要做什么**:
+1. 打开各个客户的微信群
+2. 看看今天需要去哪些仓库拉货
+3. 记下每个仓库大概有多少货
+4. 判断货多不多，要不要大车
 
-**第一类提货仓（周一至周五揽收）**:
+#### 第2步：知道去哪些仓库拉货
+
+提货仓库分3类，工作日不一样：
+
+**第1类仓库（周一到周五去拉货）**:
 - DWLAX
 - USLAX17  
 - USLAX08
-- **重点注意**：周一、周二DWLAX货量通常较大，可能需要53尺货车
-- 根据客户群中的货物数量决定车辆尺寸
+- ⚠️ **特别注意**：周一和周二的DWLAX货特别多，一般要用53尺的大货车
 
-**第二类提货仓（周日至周五揽收）**:
-- COCA
-- FNT
-- ONT1
-- WPLA
-- WPLA3
-- WPLA4
-- WPLA11
-- WPLA13
-- WPLA15
-- WPLA16
-- WPLA17
+**第2类仓库（周日到周五去拉货）**:
+- COCA、FNT、ONT1
+- WPLA、WPLA3、WPLA4
+- WPLA11、WPLA13、WPLA15
+- WPLA16、WPLA17
 
-**第三类提货仓（每日关注客户微信群更新）**:
-- YLLA
-- LAWLE1
-- LAWLW2
-- LAKST
-- **注意**：这些提货仓的揽收安排需每日在客户微信群中查看最新通知
+**第3类仓库（每天看微信群通知）**:
+- YLLA、LAWLE1、LAWLW2、LAKST
+- 这几个不固定，要每天看微信群消息
 
-#### 步骤3: 车辆安排和派遣
-1. 打开**提货仓车辆配置表**，查看每个提货仓对应的车辆尺寸要求
-2. 根据当日货量和经验判断需要安排的车辆数量和尺寸
-3. 考虑特殊情况（如周一、周二DWLAX的大货量）
-4. **通知司机**：每天必须通知司机去哪个提货仓揽货
-5. 明确告知司机提货地点、时间、注意事项
+#### 第3步：选合适的车和通知司机
 
-**车辆尺寸选择要点**:
-- 参考提货仓车辆配置表的标准要求
-- 结合客户群中的货量信息
-- 考虑历史经验（如周一、周二DWLAX需要大车）
-- 宁可车大不要车小，避免装不下需要二次派车
-- 53尺货车适用于大货量情况
+1. 打开**提货仓车辆配置表**（就是那个Google表格）
+2. 看看这个仓库一般用多大的车
+3. 根据今天的货量，判断要不要更大的车
+4. 给司机打电话或发消息，告诉他：
+   - 去哪个仓库
+   - 什么时候去
+   - 有什么要注意的
 
-#### 步骤4: 在DMS系统中新增揽收任务
-1. 登录DMS系统: https://dms.wpglb.com/pickup/task/list
-2. 使用账号WPLA13/Abcd123456登录
-3. 进入揽收任务管理界面
-4. 点击"新增揽收任务"
-5. 填写揽收信息：
-   - 提货仓代码
-   - 预计货量
-   - 车辆尺寸要求
-   - 揽收时间
-6. 分配司机
+**怎么选车？记住这几点**:
+- 先看表格里写的标准车型
+- 再看微信群里说的货量
+- 想想以前的经验（比如周一周二DWLAX要大车）
+- ⚠️ **原则：宁可车大点，不要太小装不下**
+- 货特别多的时候用53尺大货车
 
-#### 步骤5: 生成和发送司机BOL
-1. 在DMS系统中生成司机BOL
-2. 确认BOL信息准确无误：
-   - 提货仓地址
-   - 货物信息
-   - 车辆信息
-   - 司机信息
-3. 将BOL发送给指定司机
 
-#### 步骤6: 任务跟进
-1. 跟踪揽收任务执行状态
-2. 与司机保持沟通，确认到达和装货情况
-3. 如遇货量超预期，及时调整车辆安排
-4. 记录揽收完成情况和实际货量
-5. 更新车辆配置经验数据
+#### 第4步：在电脑里录入任务
+
+1. 打开DMS系统：https://dms.wpglb.com/pickup/task/list
+2. 输入账号：WPLA13，密码：Abcd123456
+3. 找到"揽收任务管理"
+4. 点"新增揽收任务"
+5. 根据实际情况，选对应的揽收服务，把所有要去的网点都选上
+6. 填写这些信息：
+   - 哪个提货仓（比如DWLAX）
+   - 大概多少货
+   - 用多大的车
+   - 什么时候去
+7. 点提交后，电脑会自动生成一个**揽收码**
+   - 💡 注意：电脑界面上显示的是"司机BOL"，但实际上是揽收码（系统以后会改名字）
+
+#### 第5步：把揽收码发给仓库员工
+
+1. 把刚才电脑生成的**揽收码**（就是那个"司机BOL"）发给仓库员工
+2. 等司机把货送到仓库时，仓库员工用这个码扫一下
+3. 扫完码后，货物信息就自动记录到电脑系统里了
 
 ---
 
-## 5. 类型二：入库揽收任务流程
+## 5. 第二种：司机把货送到我们仓库
 
-### 5.1 操作流程图
+### 5.1 整个流程是什么样的？
 
 <div style="background: #f6f8fa; padding: 20px; margin: 20px 0; border-radius: 6px; border: 1px solid #d0d7de; overflow-x: auto;">
 <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; min-width: max-content;">
-<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">司机到达</span>
+<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">电脑拿提货单</span>
 <span style="font-size: 20px; color: #2da44e;">→</span>
-<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">获取提货单</span>
+<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">发给仓库员工</span>
 <span style="font-size: 20px; color: #2da44e;">→</span>
-<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">通知仓库人员</span>
+<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">司机到了通知仓库</span>
 <span style="font-size: 20px; color: #2da44e;">→</span>
-<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">开始揽收入库</span>
+<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">开始收货</span>
 <span style="font-size: 20px; color: #2da44e;">→</span>
-<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">扫描登记</span>
+<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">扫码登记</span>
 <span style="font-size: 20px; color: #2da44e;">→</span>
-<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">完成确认</span>
+<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">完成</span>
 </div>
 </div>
 
-**作业时间**: 13:00-14:00（卸车前完成）  
-**责任人**: 调度员
+**什么时候做**: 下午1点到2点（2点前必须完成）  
+**谁负责**: 你（调度员）
 
-### 5.2 详细操作步骤
+### 5.2 具体怎么做？
 
-#### 步骤1: 获取提货单
-1. 登录DMS系统: https://dms.wpglb.com/mainline/mainlineManage/listt
-2. 使用账号WPLA13/Abcd123456登录
-3. 查看并打印当日提货单
-4. 确认司机信息和预计到达时间
+#### 第1步：从电脑里拿提货单
 
-#### 步骤2: 提货单交接
-1. 将电子版提货单发送给仓库相关人员
-2. 明确告知提货要求和注意事项
-3. 确认仓库人员收到并理解提货任务
-4. 告知仓库人员司机预计到达时间
+1. 打开DMS系统：https://dms.wpglb.com/mainline/mainlineManage/listt
+2. 输入账号：WPLA13，密码：Abcd123456
+3. 找到今天的提货单，看看或打印出来
+4. 确认司机信息和大概什么时候到
 
-#### 步骤3: 司机到达通知
-1. 司机到达后及时通知仓库人员
-2. 确认货物数量和状态
-3. 安排卸货区域和人员
+#### 第2步：把提货单发给仓库员工
 
-#### 步骤4: 揽收入库操作
-1. 仓库人员准备揽收入库
-2. 核对提货单信息
-3. 检查货物外观状态
-4. 按照提货单逐项清点
+1. 把电子版的提货单发给仓库员工（微信、邮件都行）
+2. 告诉他们注意事项
+3. 确认他们收到了，看懂了
+4. 告诉他们司机大概什么时候到
 
-#### 步骤5: 系统扫描登记
-1. 使用PDA或扫描设备
-2. 扫描每件货物的条码
-3. 在系统中完成入库登记
-4. 确认数量和系统记录一致
+#### 第3步：司机到了及时通知仓库
 
-#### 步骤6: 完成确认和跟进
-1. 与司机确认交接完成
-2. 在系统中标记揽收完成
-3. 记录揽收完成情况
-4. 如有异常及时记录和上报
+1. 司机到了马上告诉仓库员工
+2. 确认货有多少，有没有问题
+3. 安排在哪里卸货
 
----
+#### 第4步：仓库员工收货
 
-## 6. 关键控制点
+1. 仓库员工准备收货
+2. 对照提货单检查
+3. 看看货的外观有没有破损
+4. 一件一件点清楚
 
-### 6.1 外部揽收控制点
-- 每天早上必须查看客户微信群
-- 车辆尺寸必须根据货量合理安排
-- 必须提前通知司机揽收任务
-- BOL信息必须准确无误
-- 保持与司机的实时沟通
+#### 第5步：用扫码枪录入电脑
 
-### 6.2 入库揽收控制点
-- 提货单必须提前发送给仓库人员
-- 货物数量必须与提货单一致
-- 必须完成系统扫描登记
-- 异常情况必须及时记录
-- 确保司机和仓库双方确认完成
+1. 用扫码枪或PDA扫每件货的条码
+2. 在系统里完成入库登记
+3. 核对数量：看看实际收到的货和司机的BOL上写的数量是不是一样
 
-### 6.3 沟通协调点
-- 与客户微信群保持密切关注
-- 与司机保持良好沟通
-- 与仓库人员及时协调
-- 与提货仓保持联系
-- 及时反馈任务执行情况
 
 ---
 
-## 7. 重要提醒
+## 6. 重点注意事项（千万别忘）
 
-### 7.1 时间管理
-- 外部揽收：早上开始规划，全天跟进
-- 入库揽收：13:00-14:00集中处理，14:00前必须完成
+### 6.1 让司机去拉货时要注意：
+- ✅ 每天早上**必须**看微信群
+- ✅ 车的大小要根据货量来选，**宁大勿小**
+- ✅ **一定要提前**通知司机
+- ✅ 揽收码信息要准确无误
+- ✅ 随时保持和司机联系
+
+### 6.2 司机送货到仓库时要注意：
+- ✅ 提货单**提前**发给仓库员工
+- ✅ 货的数量要和提货单一样
+- ✅ **必须**扫码录入系统
+- ✅ 有问题马上记录
+- ✅ 司机和仓库都要确认完成
+
+### 6.3 沟通方面：
+- ✅ 随时看微信群消息
+- ✅ 和司机保持联系
+- ✅ 和仓库员工及时沟通
+- ✅ 和提货仓保持联系
+- ✅ 有情况及时反馈
+
+---
+
+## 7. 其他提醒
+
+### 7.1 时间安排
+- **让司机去拉货**：早上开始安排，全天跟进进度
+- **司机送货到仓库**：下午1点到2点处理，2点前必须完成
 
 ### 7.2 质量要求
-- 货量判断要准确，避免车辆不够用
-- 提货单信息要完整准确
-- 系统录入要及时完成
-- 异常情况要及时处理
+- 判断货量要准确，别让车装不下
+- 提货单信息要完整
+- 电脑里的信息要及时录入
+- 有问题及时处理
 
-### 7.3 安全注意事项
-- 司机装卸货时注意安全
-- 货物摆放要稳固
-- 重货和易碎品要特别标注
-- 遵守仓库安全操作规范
+### 7.3 安全提醒
+- 司机装卸货要注意安全
+- 货要摆稳，别倒了
+- 重的货和易碎品要特别标记
+- 按仓库安全规定操作
 
 ---
 
