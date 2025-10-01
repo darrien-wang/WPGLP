@@ -30,7 +30,6 @@ last_updated: 2025-09-30
 
 ### 核心系统
 - **DMS系统**: https://dms.wpglb.com
-- **账号**: WPLA13 / Abcd123456
 
 ### 相关表格和模板
 - **托盘数量统计表**: [Google表格](https://docs.google.com/spreadsheets/d/1-iGQCaVGhk9GAQ9_mB2n8O_s_AXj9CnM4bTfiVCsJzE/edit?gid=0#gid=0)

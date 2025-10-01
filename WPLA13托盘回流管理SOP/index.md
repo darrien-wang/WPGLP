@@ -22,10 +22,8 @@ permalink: /WPLA13托盘回流管理SOP/
 
 ## 2. 系统链接和工具
 
-### 2.1 系统登录信息
-- DMS系统账号: WPLA13
-- 密码: Abcd123456
-- DMS系统地址: https://dms.wpglb.com
+### 2.1 系统链接
+- DMS系统: https://dms.wpglb.com
 
 ### 2.2 相关表格和模板
 - **托盘数量统计表**: https://docs.google.com/spreadsheets/d/1-iGQCaVGhk9GAQ9_mB2n8O_s_AXj9CnM4bTfiVCsJzE/edit?gid=0#gid=0

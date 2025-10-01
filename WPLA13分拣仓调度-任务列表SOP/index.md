@@ -39,20 +39,19 @@ permalink: /WPLA13分拣仓调度-任务列表SOP/
 **作业时间**: 14:00开始（主要卸车时间）  
 **责任人**: 调度员  
 
-**系统登录信息**:
-- DMS/PDA系统通用账号: WPLA13
-- 密码: Abcd123456
+**系统链接**:
+- DMS系统: https://dms.wpglb.com/mainline/mainlineManage/listt
+- 卸车扫描系统: https://pda.wpglb.com/unloadingScan
 
 **操作步骤**:
 1. **获取车牌号**
-   - 登录DMS系统: https://dms.wpglb.com/mainline/mainlineManage/listt
-   - 使用账号WPLA13/Abcd123456登录
+   - 登录DMS系统
    - 查看当日到达车辆信息
    - 记录车牌号（如HU65652等）
 
 2. **执行卸车扫描**
-   - 登录卸车扫描系统: https://pda.wpglb.com/unloadingScan
-   - 使用相同账号WPLA13/Abcd123456登录
+   - 登录卸车扫描系统
+   - 使用你的账号密码登录
    - 输入获取的车牌号
    - 开始卸车扫描操作
 
@@ -72,14 +71,12 @@ permalink: /WPLA13分拣仓调度-任务列表SOP/
 **作业时间**: 13:00-14:00（卸车前完成）  
 **责任人**: 调度员  
 
-**系统登录信息**:
-- DMS系统账号: WPLA13
-- 密码: Abcd123456
+**系统链接**:
+- DMS系统: https://dms.wpglb.com/mainline/mainlineManage/listt
 
 **操作步骤**:
 1. **获取提货单**
-   - 登录DMS系统: https://dms.wpglb.com/mainline/mainlineManage/listt
-   - 使用账号WPLA13/Abcd123456登录
+   - 登录DMS系统
    - 查看并打印当日提货单
 
 2. **提货单交接**
@@ -139,7 +136,7 @@ permalink: /WPLA13分拣仓调度-任务列表SOP/
 
 2. **DMS系统辅助查询（当OR中找不到订单时）**
    - 登录DMS系统: https://dms.wpglb.com
-   - 使用账号WPLA13/Abcd123456登录
+   - 使用你的账号密码登录
    - 在DMS中搜索订单号
    - 查看订单的**线路信息**字段
    - 记录该订单的**配送日期**

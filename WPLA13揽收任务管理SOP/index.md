@@ -22,11 +22,9 @@ permalink: /WPLA13揽收任务管理SOP/
 
 ## 2. 系统链接和工具
 
-### 2.1 系统登录信息
-- DMS系统账号: WPLA13
-- 密码: Abcd123456
+### 2.1 系统链接
 - DMS揽收任务系统: https://dms.wpglb.com/pickup/task/list
-- **干线任务管理系统**: https://dms.wpglb.com/mainline/mainlineManage/listt
+- 干线任务管理系统: https://dms.wpglb.com/mainline/mainlineManage/listt
 
 ### 2.2 相关表格
 - **提货仓车辆配置表**: https://docs.google.com/spreadsheets/d/1IRZqAdMEs52wEJyEF3qkjWM_xJvBJEOE/edit?rtpof=true
@@ -120,7 +118,7 @@ permalink: /WPLA13揽收任务管理SOP/
 #### 第4步：在电脑里录入任务
 
 1. 打开DMS系统：https://dms.wpglb.com/pickup/task/list
-2. 输入账号：WPLA13，密码：Abcd123456
+2. 登录系统（使用你的账号密码）
 3. 找到"揽收任务管理"
 4. 点"新增揽收任务"
 5. 根据实际情况，选对应的揽收服务，把所有要去的网点都选上
@@ -168,7 +166,7 @@ permalink: /WPLA13揽收任务管理SOP/
 #### 第1步：从电脑里拿提货单
 
 1. 打开DMS系统：https://dms.wpglb.com/mainline/mainlineManage/listt
-2. 输入账号：WPLA13，密码：Abcd123456
+2. 登录系统（使用你的账号密码）
 3. 找到今天的提货单，看看或打印出来
 4. 确认司机信息和大概什么时候到
 
