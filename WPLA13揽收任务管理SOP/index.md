@@ -103,11 +103,10 @@ permalink: /WPLA13揽收任务管理SOP/
 3. 根据今天的货量，判断要不要更大的车
 4. 给司机打电话或发消息，**建议使用以下信息模板**（可复制粘贴）：
 
----
+<details>
+<summary><strong>📱 点击展开：司机通知信息模板（可复制粘贴）</strong></summary>
 
-**📱 司机通知信息模板**
-
-<div style="background: #f8f9fa; border: 2px solid #0969da; border-radius: 8px; padding: 20px; margin: 20px 0;">
+<div style="background: #f8f9fa; border: 2px solid #0969da; border-radius: 8px; padding: 20px; margin: 15px 0;">
 
 **标准版（适用于大部分情况）:**
 
@@ -171,7 +170,7 @@ permalink: /WPLA13揽收任务管理SOP/
 
 </div>
 
----
+</details>
 
 **怎么选车？记住这几点**:
 - 先看表格里写的标准车型
