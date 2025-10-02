@@ -18,3 +18,13 @@ plugins:
 
 # SEO
 author: "Darrien Wang"
+
+# Disable service worker for local development
+exclude:
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - Gemfile
+  - Gemfile.lock
