@@ -13,53 +13,6 @@ last_updated: 2025-09-30
 
 欢迎来到WPGLP仓库管理系统文档中心！
 
-## ⏰ 调度员一天的工作时间线
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; margin: 20px 0; border-radius: 10px; color: white;">
-
-### 📅 工作时间：13:00 - 21:00
-
-<div style="margin-top: 20px;">
-
-**🌅 上班前/早上**
-<div style="background: rgba(255,255,255,0.2); padding: 10px; margin: 10px 0; border-radius: 5px;">
-📱 查看客户微信群，确认当日揽收需求和货量
-</div>
-
-**⏰ 13:00-14:00 | 上班准备**
-<div style="background: rgba(255,255,255,0.2); padding: 10px; margin: 10px 0; border-radius: 5px;">
-🚚 安排揽收任务 → 通知司机 → 获取揽收码 → 分发给仓库员工
-</div>
-
-**⏰ 14:00 | 开始卸车**
-<div style="background: rgba(255,255,255,0.2); padding: 10px; margin: 10px 0; border-radius: 5px;">
-📦 主要卸车时间，协调卸车人员，监督扫描操作
-</div>
-
-**⏰ 14:00-17:00 | 核心工作时间**
-<div style="background: rgba(255,255,255,0.2); padding: 10px; margin: 10px 0; border-radius: 5px;">
-🔄 干线任务管理 • 📋 问题件处理 • 🔍 POD查询
-</div>
-
-**⏰ 17:00-19:00 | 派单高峰**
-<div style="background: rgba(255,255,255,0.2); padding: 10px; margin: 10px 0; border-radius: 5px;">
-✈️ 派单操作 • 🔁 二次派单 • ⚠️ 异常处理
-</div>
-
-**⏰ 19:00-21:00 | 收尾工作**
-<div style="background: rgba(255,255,255,0.2); padding: 10px; margin: 10px 0; border-radius: 5px;">
-📮 转FedEx处理 • 📤 推送操作 • 📝 工作总结
-</div>
-
-**⏰ 21:00前 | 必须完成**
-<div style="background: rgba(255,255,255,0.2); padding: 10px; margin: 10px 0; border-radius: 5px;">
-⚡ 商业地址配送安排 • 🔙 退货扫描要求 • 📊 当日记录整理
-</div>
-
-</div>
-</div>
-
----
 
 ## 📚 文档目录
 
