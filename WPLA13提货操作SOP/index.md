@@ -89,10 +89,12 @@ permalink: /WPLA13提货操作SOP/
 
 <div style="margin: 15px 0;">
 
-![Surpath通知截图1](images/surpath聊天记录01.png)
+<img src="{{ site.baseurl }}/WPLA13提货操作SOP/images/surpath聊天记录01.png" alt="Surpath通知截图1" />
+
 *图1：Surpath群通知 - 显示611地址11单的详细单号*
 
-![Surpath通知截图2](images/surpath聊天记录02.png)
+<img src="{{ site.baseurl }}/WPLA13提货操作SOP/images/surpath聊天记录02.png" alt="Surpath通知截图2" />
+
 *图2：Surpath群通知 - 显示14909地址2单及PDF附件（BOL提单）*
 
 </div>
