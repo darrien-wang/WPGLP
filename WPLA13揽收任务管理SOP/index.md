@@ -90,7 +90,7 @@ permalink: /WPLA13揽收任务管理SOP/
 
 <div style="background: #f6f8fa; padding: 20px; margin: 20px 0; border-radius: 6px; border: 1px solid #d0d7de; overflow-x: auto;">
 <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; min-width: max-content;">
-<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">电脑拿提货单</span>
+<span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">电脑拿揽收码</span>
 <span style="font-size: 20px; color: #2da44e;">→</span>
 <span style="background: #2da44e; color: white; padding: 10px 15px; border-radius: 6px; font-weight: bold;">发给仓库员工</span>
 <span style="font-size: 20px; color: #2da44e;">→</span>
