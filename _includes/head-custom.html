@@ -1,3 +1,13 @@
 <!-- Additional head elements can be added here -->
 
-
+<!-- Disable Service Worker to prevent registration errors -->
+<script>
+  // Unregister any existing service workers
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      for(let registration of registrations) {
+        registration.unregister();
+      }
+    });
+  }
+</script>

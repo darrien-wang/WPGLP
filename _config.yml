@@ -25,7 +25,12 @@ plugins:
 # SEO
 author: "Darrien Wang"
 
-# Disable service worker for local development
+# Disable service worker
+webrick:
+  headers:
+    Service-Worker-Allowed: "/"
+
+# Exclude files from processing
 exclude:
   - node_modules
   - vendor
