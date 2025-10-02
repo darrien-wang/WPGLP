@@ -1,6 +1,6 @@
 # Site settings
-title: "WPGLP 仓库管理系统"
-description: "WPLA13分拣仓调度和托盘回流管理标准作业程序"
+title: "WPGLP 调度SOP"
+description: "WPLA13分拣仓调度标准作业程序"
 baseurl: "/WPGLP"
 url: "https://darrien-wang.github.io"
 
