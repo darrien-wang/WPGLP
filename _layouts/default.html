@@ -13,13 +13,18 @@
     {% include head-custom.html %}
     
     <!-- Mermaid.js support -->
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
       mermaid.initialize({ 
         startOnLoad: true,
         theme: 'default',
         themeVariables: {
           fontSize: '14px'
+        },
+        flowchart: {
+          useMaxWidth: true,
+          htmlLabels: true,
+          curve: 'basis'
         }
       });
     </script>

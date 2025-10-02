@@ -150,6 +150,24 @@ th {
   font-weight: bold;
 }
 
+// Mermaid图表样式
+.mermaid {
+  text-align: center;
+  margin: 20px 0;
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+// 确保代码块中的mermaid能正确显示
+pre.mermaid {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
 // 响应式设计
 @media (max-width: 768px) {
   .site-title {
@@ -162,5 +180,10 @@ th {
   
   .card {
     padding: 15px;
+  }
+  
+  .mermaid {
+    padding: 10px;
+    font-size: 12px;
   }
 }
