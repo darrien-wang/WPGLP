@@ -42,8 +42,8 @@ last_updated: 2025-09-30
 
 ## 👥 联系信息
 
-- **编制**: Darrien，Michael From WPLA13
-- **审核**: Tammy
+- **编制**: Darrien，Michael,Baihan
+- **审核**: Tammy,Baihan,Irene
 - **版本**: V1.0
 - **生效日期**: 2025-09-28
 - **最后更新**: {{ page.last_updated }}

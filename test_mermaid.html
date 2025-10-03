@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mermaid Test - Local Debug</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        #status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+
+    <!-- Mermaid.js with manual rendering control -->
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+
+      console.log('✅ Mermaid module loaded:', mermaid);
+
+      // Initialize mermaid with startOnLoad false - we'll trigger manually
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: 'default',
+        themeVariables: {
+          fontSize: '14px'
+        },
+        flowchart: {
+          useMaxWidth: true,
+          htmlLabels: true,
+          curve: 'basis'
+        }
+      });
+
+      console.log('✅ Mermaid initialized (startOnLoad: false)');
+
+      // Wait for DOM to be ready
+      window.addEventListener('DOMContentLoaded', async () => {
+        console.log('📄 DOM loaded, processing mermaid elements...');
+
+        // Find all code blocks with language-mermaid class and convert them
+        const codeBlocks = document.querySelectorAll('pre > code.language-mermaid');
+        console.log(`🔍 Found ${codeBlocks.length} code blocks to convert`);
+
+        codeBlocks.forEach(function(codeBlock) {
+          const mermaidCode = codeBlock.textContent;
+          console.log('🔄 Converting code block:', mermaidCode.substring(0, 50) + '...');
+
+          // Create a new div with class "mermaid"
+          const mermaidDiv = document.createElement('div');
+          mermaidDiv.className = 'mermaid';
+          mermaidDiv.textContent = mermaidCode;
+
+          // Replace the pre block with the mermaid div
+          const preBlock = codeBlock.parentElement;
+          preBlock.parentNode.replaceChild(mermaidDiv, preBlock);
+        });
+
+        const totalMermaidDivs = document.querySelectorAll('.mermaid').length;
+        console.log(`✅ Conversion complete. Total mermaid divs: ${totalMermaidDivs}`);
+
+        // Now manually run mermaid on all .mermaid elements
+        if (totalMermaidDivs > 0) {
+          try {
+            console.log('🎨 Starting mermaid rendering...');
+            await mermaid.run({
+              querySelector: '.mermaid'
+            });
+            console.log('✅ Mermaid rendering complete!');
+
+            // Update status
+            const statusDiv = document.getElementById('status');
+            statusDiv.className = 'success';
+            statusDiv.textContent = `✅ Successfully rendered ${totalMermaidDivs} mermaid diagrams!`;
+          } catch (error) {
+            console.error('❌ Mermaid rendering error:', error);
+            const statusDiv = document.getElementById('status');
+            statusDiv.className = 'error';
+            statusDiv.textContent = `❌ Error rendering diagrams: ${error.message}`;
+          }
+        } else {
+          console.log('ℹ️ No mermaid diagrams found');
+          const statusDiv = document.getElementById('status');
+          statusDiv.className = 'info';
+          statusDiv.textContent = 'ℹ️ No mermaid diagrams found on page.';
+        }
+      });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Mermaid.js Local Debug Test</h1>
+
+        <div id="status" class="info">🔄 Loading and checking mermaid diagrams...</div>
+
+        <h2>Test 1: Basic Flowchart (div.mermaid format)</h2>
+        <div class="mermaid">
+graph TD
+    A[Start] --> B[Process]
+    B --> C{Decision}
+    C -->|Yes| D[End]
+    C -->|No| B
+        </div>
+
+        <h2>Test 2: Complex Flowchart (from WPLA13推单排程操作SOP - div.mermaid format)</h2>
+        <div class="mermaid">
+graph TD
+    A[卸车扫描完成] --> B[步骤1: 登录DMS系统]
+    B --> C[选择揽收任务管理]
+    C --> D[找到当日收货网点条目]
+    D --> E[导出明细]
+    E --> F[步骤2: 提取所有订单ID]
+    F --> G[进入订单管理页面]
+    G --> H[批量搜索订单ID]
+    H --> I[步骤3: 筛选待同步订单]
+    I --> J[选择未同步的订单]
+    J --> K[执行批量同步]
+    K --> L{仓库揽收<br/>全部完成?}
+    L -->|否| K
+    L -->|是| M[确认最终揽收数量]
+    M --> N[步骤4: 处理同步失败订单]
+    N --> O[筛选同步失败订单]
+    O --> P{能否修改<br/>地址推送?}
+    P -->|是| Q[修改地址后推送入OR]
+    P -->|否| R[OR系统手动添加订单]
+    Q --> S{推送成功?}
+    S -->|否| R
+    S -->|是| T[完成同步]
+    R --> T
+        </div>
+
+        <h2>Test 3: Using pre>code.language-mermaid format (simulating Jekyll/markdown output)</h2>
+        <pre><code class="language-mermaid">graph LR
+    A[Square Rect] --> B((Circle))
+    A --> C(Round Rect)
+    B --> D{Rhombus}
+    C --> D</code></pre>
+
+        <h2>Debug Info</h2>
+        <p>Open browser DevTools Console (F12) to see detailed logs and any errors.</p>
+
+        <h3>Check these in console:</h3>
+        <ul>
+            <li>✅ "Mermaid module loaded" message</li>
+            <li>✅ "Mermaid initialized" message</li>
+            <li>🔍 "Found X code blocks to convert" message</li>
+            <li>🎨 "Starting mermaid rendering" message</li>
+            <li>✅ "Mermaid rendering complete!" message</li>
+            <li>❌ Any error messages in red</li>
+        </ul>
+    </div>
+</body>
+</html>
