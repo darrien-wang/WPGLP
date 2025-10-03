@@ -15,8 +15,10 @@
     <!-- Mermaid.js support -->
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+
+      // Initialize mermaid with startOnLoad false - we'll trigger manually
       mermaid.initialize({
-        startOnLoad: true,
+        startOnLoad: false,
         theme: 'default',
         themeVariables: {
           fontSize: '14px'
@@ -25,6 +27,29 @@
           useMaxWidth: true,
           htmlLabels: true,
           curve: 'basis'
+        }
+      });
+
+      // Wait for DOM to be ready
+      window.addEventListener('DOMContentLoaded', async () => {
+        // Find all code blocks with language-mermaid class and convert them
+        document.querySelectorAll('pre > code.language-mermaid').forEach(function(codeBlock) {
+          const mermaidCode = codeBlock.textContent;
+          const mermaidDiv = document.createElement('div');
+          mermaidDiv.className = 'mermaid';
+          mermaidDiv.textContent = mermaidCode;
+          const preBlock = codeBlock.parentElement;
+          preBlock.parentNode.replaceChild(mermaidDiv, preBlock);
+        });
+
+        // Now manually run mermaid on all .mermaid elements
+        const mermaidDivs = document.querySelectorAll('.mermaid');
+        if (mermaidDivs.length > 0) {
+          try {
+            await mermaid.run({ querySelector: '.mermaid' });
+          } catch (error) {
+            console.error('Mermaid rendering error:', error);
+          }
         }
       });
     </script>
